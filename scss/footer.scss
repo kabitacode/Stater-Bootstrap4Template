@@ -1,0 +1,50 @@
+#footer{
+    padding: 35px 0 30px 0;
+    text-align: center;
+    background-color: #000000;
+    .social{
+        margin-bottom: 1.20em;
+        a{
+            background-color: #ffffff;
+            border-radius: 10%;
+            padding: 5px 10px;
+            margin-right: 0.50em;
+            transition: .5s all;
+
+            @media(max-width: 768px){
+                padding: 4px 8px;
+            }
+            &:hover{
+                background-color: #03C4EB;
+                i{
+                    color: #ffffff!important;
+                }
+
+            }
+            
+            i{
+                font-size: 18px;
+                color: #000000;
+
+                @media(max-width: 768px){
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .copyright{
+        p{
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 300;
+
+            @media(max-width: 768px){
+                font-size: 13px;
+            }
+            
+            b{
+                font-weight: 700;
+            }
+        }
+    }
+}

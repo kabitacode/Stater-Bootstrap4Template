@@ -1,0 +1,89 @@
+#testimonials{
+    padding: 80px 0 0 0;
+    text-align: center;
+    background-color: #F6F6F6;
+    
+    @media(max-width:768px){
+        padding: 50px 0 0 0;
+    }
+    .section_title{
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media(max-width:768px){
+            font-size: 20px;
+        }
+    }
+    .section_description{
+        font-size: 14px;
+        font-weight: 300;
+        color: #666666;
+        margin-bottom: 3em;
+
+        @media(max-width:768px){
+            font-size: 13px;
+        }
+    }
+    .pic{
+        border-radius: 50%;
+        margin-bottom: 1em;
+        img{
+            max-width: 100%;
+            border-radius: inherit;
+            border: 5px solid #ffffff;
+
+            @media(max-width: 768px){
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+    h4{
+        font-size: 16px;
+        color: #03C4EB;
+        font-weight: 700;
+
+        @media(max-width: 768px){
+            font-size: 15px;
+        }
+    }
+    h5{
+        font-size: 14px;
+        margin-bottom: 2em!important;
+
+        @media(max-width: 768px){
+            font-size: 12px;
+        }
+    }
+    .quote{
+        background-color: #ffffff;
+        border-radius: 5px;
+        width: 100%;
+        padding: 50px 10px;
+        font-style: italic;
+        color: #666666;
+
+        @media(max-width: 768px){
+            font-size: 13px;
+            margin-bottom: 1.50em;
+        }
+        b{
+            position: relative;
+            top: -13px;
+
+            @media(max-width: 768px){
+                position: relative;
+                top: -12px;
+            }
+        }
+        img{
+            vertical-align: middle;
+            width: 35px;
+
+            @media(max-width: 768px){
+                width: 25px;
+            }
+        }
+    }
+}

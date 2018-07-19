@@ -1,0 +1,66 @@
+#services{
+padding: 80px 0 60px 0;
+font-size: 13px;
+background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url('../images/bg-services.jpg') fixed center center;  
+background-size: cover;
+background-repeat: no-repeat;
+
+@media(max-width: 768px){
+    font-size: 12px;
+    padding: 40px 0 0 0;
+  }
+header{
+    text-align: center;
+    .section_title{
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 0.50em;
+
+        @media(max-width: 768px){
+            font-size: 20px;
+          }
+    }
+    .section_description{
+        font-weight: 300;
+        color: #666666;
+        margin-bottom: 3em;
+    }
+}
+    .services-icon{
+        float: left;
+        background-color: #03C4EB;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 15px 0 0 13px;
+        
+        @media(max-width: 768px){
+            width: 40px;
+            height: 40px;
+            padding: 13px 0 0 10px;
+          }
+
+        i{
+            font-size: 22px;
+            @media(max-width: 768px){
+                font-size: 18px;
+                
+              }
+        }
+    }
+    .services-title{
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3.50em!important;
+        
+        @media(max-width: 768px){
+            font-size: 15px;
+            padding-left: 4em!important;
+          }
+    }
+    .services-desc{
+        font-weight: 300;
+        color: #666666;
+        padding-left: 5em;
+    }
+}

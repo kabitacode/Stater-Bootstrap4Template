@@ -1,0 +1,95 @@
+#contact_us{
+    padding: 80px 0;
+
+    @media(max-width: 768px){
+        padding: 50px 0;
+    }
+  header{
+      text-align: center;
+      .section_title{
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media(max-width: 768px){
+            font-size: 20px;
+        }
+    }
+    .section_description{
+        font-size: 14px;
+        font-weight: 300;
+        color: #666666;
+        margin-bottom: 3em;
+
+        @media(max-width: 768px){
+            font-size: 12px;
+        }
+    }
+  }
+      .contact_container{
+        margin: 0.5em 0 2em 0;
+        .contact{
+            float: left;
+
+            i{
+             font-size: 32px;
+             color: #03C4EB;
+
+             @media(max-width: 768px){
+                font-size: 25px;
+                }
+             }
+         }
+     p{
+         font-size: 15px;
+         color: #666666;
+         font-weight: 300;
+         padding: 0 0 0 4em;
+        
+         @media(max-width: 768px){
+            font-size: 12px;
+            }
+        }
+    }
+    form{
+        input,textarea{
+            font-size: 14px;
+            color: #666666;
+
+            @media(max-width: 768px){
+                font-size: 12px;
+            }
+        }
+        label{
+            font-size: 15px;
+            color: #666666;
+            font-weight: 300;
+
+            @media(max-width: 768px){
+                font-size: 12px;
+            }
+        }
+        .send{
+             cursor: pointer;
+             color: #ffffff;
+             border: 1px solid #03C4EB;
+             background-color: #03C4EB;
+             outline: none;
+             padding: 5px 20px;
+             font-size: 15px;
+             font-weight: 700;
+             border-radius: 5px;
+            
+             @media(max-width: 768px){
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+             &:hover{
+                 box-shadow: 1px 1px 10px #03C4EB;
+                 -webkit-box-shadow: 1px 1px 10px #03C4EB;
+                 -moz-box-shadow: 1px 1px 10px #03C4EB;
+                 -o-box-shadow: 1px 1px 10px #03C4EB;
+             }
+        }
+    }
+  }

@@ -1,0 +1,53 @@
+#subscribe{
+    padding: 50px 0 80px 0;
+    background: linear-gradient(rgba(0,0,0, 0.36), rgba(0,0,0, 0.98)), url('../images/bg-subscribe.jpg') fixed center center;
+    background-size: cover;
+    color: #ffffff;
+
+    @media(max-width: 768px){
+        padding: 35px 0 50px 0;
+    }
+
+    .subscribe_title{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 0.50em;
+
+        @media(max-width: 768px){
+            font-size: 20px;
+        }
+    }
+    .subscribe_text{
+        font-size: 13px;
+    }
+    .subscribe_btn_container{
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Raleway",sans-serif;
+        .subscribe_btn{
+            font-size: 15px;
+            font-weight: 700;
+            background: transparent;
+            border: 1px solid #ffffff;
+            padding: 10px 25px;
+            border-radius: 2px;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all .5s ease-in;
+            margin: 9em 0 0 5em;
+
+            @media(max-width: 1024px){
+                padding: 8px;
+                font-size: 12px;
+                position: absolute;
+                left: -3.60em;
+                bottom: -2em; 
+            }
+            &:hover{
+                background-color: #03C4EB;
+                border: 1px solid #03C4EB;
+            }
+    }
+    }
+}

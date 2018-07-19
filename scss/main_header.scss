@@ -1,0 +1,139 @@
+#main_header{
+  background-image: url("../images/venveo-609390-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+
+  @media(max-width: 768px){
+    height: 350px;
+  }
+  .bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    .navbar{
+      padding: 1em 0 1em 0!important;
+      transition: .10s;
+      .navbar-toggler{
+        background: #ffffff;
+        cursor: pointer;
+        outline: none;
+        margin-right: 1.20em;
+        .navbar-toggler-icon{
+          background-color: #03C4EB!important;
+        }
+      }
+      .logo{
+          font-family: "Raleway",sans-serif;
+          color: #ffffff;
+          cursor: pointer;
+          font-size: 30px;
+          font-weight: 700;
+          text-decoration: none;
+          @media(max-width: 640px){
+            font-size: 18px;
+            font-weight: 900;
+          }
+      }
+      .navbar-nav{
+        @media(max-width: 640px){
+         position: absolute;
+         top: 4em;
+         left: 0;
+         right: 0;
+         width: 100%;
+         height: 500px;
+         overflow: hidden;
+         z-index: 1000;
+        }
+        li{
+          transition: .5s all;
+          @media(max-width: 640px){
+            text-align: center;
+            background-color: #000000;
+          }
+          a{
+            @media(max-width: 1024px){
+              font-size: 13px;
+            }
+            font-size: 16px;
+            color: #ffffff;
+            transition: .5s all ease-in;
+
+            &:hover{
+              color: rgb(27, 147, 233);
+              @media(max-width: 640px){
+                background-color: #03C4EB;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+    #hero {
+      
+      .hero_content {
+        text-align: center;
+        padding: 8em 0;
+        @media(max-width: 768px){
+          padding: 3em 0;
+        }
+          h1,h5{
+              font-family: "Raleway", sans-serif;
+          }
+        h1 {
+          color: #ffffff !important;
+          font-size: 4.4em;
+          font-weight: 900;
+          line-height: 1.5em;
+
+          @media(max-width: 768px){
+              font-size: 35px;
+          }
+        }
+        h5 {
+          color: #ffffff;
+          font-size: 2em;
+          font-weight: 400;
+          margin-bottom: 1em;
+          @media(max-width: 768px){
+            font-size: 20px;
+        }
+        }
+        a {
+          margin-right: 10px;
+          padding: 10px 25px;
+          text-decoration: none;
+          border-radius: 2px;
+          border: 2px solid #ffffff;
+          transition: .5s ease-in-out;
+          @media(max-width: 768px){
+            padding: 7px 8px;
+            font-size: 10px;
+          }
+          &.get_started{
+            background: #03C4EB;
+            color: #ffffff;
+            border: 2px solid #03C4EB;
+            &:hover{
+                border: 2px solid #ffffff;
+                background-color: transparent;
+                outline: none;
+            }
+          }
+          &.our_services{
+            background-color: transparent;
+            color: #ffffff;
+              &:hover{
+                background: #03C4EB;
+                border: 2px solid #03C4EB;
+                color: #fff;
+              }
+            }
+        }
+      }
+    }  
+}
+}
