@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+    // initiate the wowjs
+    new WOW().init();
+
+    // Navigation Fixed
    $(window).scroll(function () {
     if($(window).scrollTop()){
         $('nav').addClass('fixed-top');
