@@ -1,5 +1,28 @@
 $(document).ready(function () {
-    
+    // isotope
+    var $container = $('#portofolio .col-md-12');
+    $container.isotope({
+        filter: '*',
+        animationOptions: {
+            duration : 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+    $('.list_portofolio ul li a').click(function () {
+        $('.list_portofolio ul li a.active').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+    });
     // initiate the wowjs
     new WOW().init();
 
