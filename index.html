@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <title>Document</title>
     <!-- Style Css -->
     <link rel="stylesheet" href="css/style.css">
@@ -18,7 +18,10 @@
         <!-- Animate Css -->
     <link rel="stylesheet" href="lib/animate-css/animate.min.css">
     <!-- Jquery -->
-    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 <body>
@@ -246,14 +249,15 @@
                        </header>
                        <div class="list_portofolio">
                            <ul>
-                               <li><a href="#">All</a></li>
-                               <li><a href="#">Web Design</a></li>
-                               <li><a href="#">Graphic</a></li>
-                               <li><a href="#">Logo</a></li>
-                               <li><a href="#">ILlustration</a></li>
+                               <li class="active"><a data-filter="*" href="#">All</a></li>
+                               <li><a data-filter=".web" href="#">Web Design</a></li>
+                               <li><a data-filter=".graphic" href="#">Graphic</a></li>
+                               <li><a data-filter=".logo" href="#">Logo</a></li>
+                               <li><a data-filter=".illustration" href="#">Illustration</a></li>
                            </ul>
                        </div>
                    </div>
+                   <div class="portofolio_filtering">
                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                        <a class="portofolio_item portofolio_item1" href="#">
                            <div class="details">
@@ -317,6 +321,7 @@
                                         <h5>Illusion</h5>
                                 </div>
                              </a>
+                    </div>
                     </div>
                </div>
            </div>
@@ -538,9 +543,9 @@
             </div>
        </footer>
        <script src="js/script.js"></script>
-      
-  <script src="lib/popper.min.js"></script>  
-  <script src="lib/bootstrap.min.js"></script>
-  <script src="lib/wow.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/bootstrap/popper.min.js"></script>  
+  <script src="lib/bootstrap/bootstrap.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
 </body>
 </html>
