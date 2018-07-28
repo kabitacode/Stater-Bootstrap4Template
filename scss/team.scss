@@ -37,7 +37,8 @@
 
         @media(max-width: 768px){
             height: 200px;
-            margin-bottom: 1.50em;
+            width: 70%;
+            margin: 0.70em auto;
         }
         &:hover{
             transform: scale3d(1.1,1.1,1);
