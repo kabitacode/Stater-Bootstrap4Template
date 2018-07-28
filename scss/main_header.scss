@@ -24,16 +24,10 @@
           background-color: #03C4EB!important;
         }
       }
-      .logo{
-          font-family: "Raleway",sans-serif;
-          color: #ffffff;
-          cursor: pointer;
-          font-size: 30px;
-          font-weight: 700;
-          text-decoration: none;
+      .logo img{
+        max-width: 130px;
           @media(max-width: 640px){
-            font-size: 18px;
-            font-weight: 900;
+            max-width: 100px;
           }
       }
       .navbar-nav{
@@ -49,6 +43,7 @@
         }
         li{
           transition: .5s all;
+          padding-top: 10px;
           @media(max-width: 640px){
             text-align: center;
             background-color: #000000;
@@ -59,13 +54,14 @@
             }
             font-size: 16px;
             color: #ffffff;
+            position: relative;
             transition: .5s all ease-in;
 
             &:hover{
-              color: rgb(27, 147, 233);
+              color: #03C4EB;
               @media(max-width: 640px){
                 background-color: #03C4EB;
-                color: #ffffff;
+                color: #666666;
               }
             }
           }
@@ -73,31 +69,29 @@
       }
     }
     #hero {
-      
       .hero_content {
         text-align: center;
-        padding: 8em 0;
+        padding: 12em 0;
         @media(max-width: 768px){
           padding: 3em 0;
         }
-          h1,h5{
-              font-family: "Raleway", sans-serif;
-          }
         h1 {
           color: #ffffff !important;
-          font-size: 4.4em;
-          font-weight: 900;
+          font-size: 40px;
+          font-weight: 600;
           line-height: 1.5em;
-
+          text-transform: uppercase;
           @media(max-width: 768px){
               font-size: 35px;
           }
         }
         h5 {
           color: #ffffff;
-          font-size: 2em;
+          font-size: 13px;
           font-weight: 400;
-          margin-bottom: 1em;
+          line-height: 19px;
+          text-transform: uppercase;
+          margin-bottom: 3.5em;
           @media(max-width: 768px){
             font-size: 20px;
         }
@@ -106,7 +100,7 @@
           margin-right: 10px;
           padding: 10px 25px;
           text-decoration: none;
-          border-radius: 2px;
+          border-radius: 5px;
           border: 2px solid #ffffff;
           transition: .5s ease-in-out;
           @media(max-width: 768px){

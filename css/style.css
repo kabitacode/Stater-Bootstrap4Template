@@ -38,17 +38,11 @@ body {
         margin-right: 1.20em; }
         #main_header .bg .navbar .navbar-toggler .navbar-toggler-icon {
           background-color: #03C4EB !important; }
-      #main_header .bg .navbar .logo {
-        font-family: "Raleway",sans-serif;
-        color: #ffffff;
-        cursor: pointer;
-        font-size: 30px;
-        font-weight: 700;
-        text-decoration: none; }
+      #main_header .bg .navbar .logo img {
+        max-width: 130px; }
         @media (max-width: 640px) {
-          #main_header .bg .navbar .logo {
-            font-size: 18px;
-            font-weight: 900; } }
+          #main_header .bg .navbar .logo img {
+            max-width: 100px; } }
       @media (max-width: 640px) {
         #main_header .bg .navbar .navbar-nav {
           position: absolute;
@@ -60,7 +54,8 @@ body {
           overflow: hidden;
           z-index: 1000; } }
       #main_header .bg .navbar .navbar-nav li {
-        transition: .5s all; }
+        transition: .5s all;
+        padding-top: 10px; }
         @media (max-width: 640px) {
           #main_header .bg .navbar .navbar-nav li {
             text-align: center;
@@ -68,37 +63,39 @@ body {
         #main_header .bg .navbar .navbar-nav li a {
           font-size: 16px;
           color: #ffffff;
+          position: relative;
           transition: .5s all ease-in; }
           @media (max-width: 1024px) {
             #main_header .bg .navbar .navbar-nav li a {
               font-size: 13px; } }
           #main_header .bg .navbar .navbar-nav li a:hover {
-            color: #1b93e9; }
+            color: #03C4EB; }
             @media (max-width: 640px) {
               #main_header .bg .navbar .navbar-nav li a:hover {
                 background-color: #03C4EB;
-                color: #ffffff; } }
+                color: #666666; } }
     #main_header .bg #hero .hero_content {
       text-align: center;
-      padding: 8em 0; }
+      padding: 12em 0; }
       @media (max-width: 768px) {
         #main_header .bg #hero .hero_content {
           padding: 3em 0; } }
-      #main_header .bg #hero .hero_content h1, #main_header .bg #hero .hero_content h5 {
-        font-family: "Raleway", sans-serif; }
       #main_header .bg #hero .hero_content h1 {
         color: #ffffff !important;
-        font-size: 4.4em;
-        font-weight: 900;
-        line-height: 1.5em; }
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.5em;
+        text-transform: uppercase; }
         @media (max-width: 768px) {
           #main_header .bg #hero .hero_content h1 {
             font-size: 35px; } }
       #main_header .bg #hero .hero_content h5 {
         color: #ffffff;
-        font-size: 2em;
+        font-size: 13px;
         font-weight: 400;
-        margin-bottom: 1em; }
+        line-height: 19px;
+        text-transform: uppercase;
+        margin-bottom: 3.5em; }
         @media (max-width: 768px) {
           #main_header .bg #hero .hero_content h5 {
             font-size: 20px; } }
@@ -106,7 +103,7 @@ body {
         margin-right: 10px;
         padding: 10px 25px;
         text-decoration: none;
-        border-radius: 2px;
+        border-radius: 5px;
         border: 2px solid #ffffff;
         transition: .5s ease-in-out; }
         @media (max-width: 768px) {
@@ -190,7 +187,8 @@ body {
     #services header .section_title {
       font-size: 32px;
       font-weight: 600;
-      margin-bottom: 0.50em; }
+      margin-bottom: 0.50em;
+      text-transform: uppercase; }
       @media (max-width: 768px) {
         #services header .section_title {
           font-size: 20px; } }
@@ -201,17 +199,18 @@ body {
   #services .services-icon {
     float: left;
     background-color: #03C4EB;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    padding: 15px 0 0 13px; }
+    padding-top: 11px;
+    text-align: center; }
     @media (max-width: 768px) {
       #services .services-icon {
         width: 40px;
-        height: 40px;
-        padding: 13px 0 0 10px; } }
+        height: 40px; } }
     #services .services-icon i {
-      font-size: 22px; }
+      font-size: 22px;
+      color: #FFFFFF; }
       @media (max-width: 768px) {
         #services .services-icon i {
           font-size: 18px; } }
