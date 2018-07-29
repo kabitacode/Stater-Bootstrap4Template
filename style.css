@@ -293,6 +293,42 @@ body {
       #portofolio .section_description {
         font-size: 12px;
         margin-bottom: 1.20em; } }
+  #portofolio .list_portofolio {
+    margin-bottom: 3em; }
+    @media (max-width: 768px) {
+      #portofolio .list_portofolio {
+        padding-right: 1em;
+        margin-bottom: 1.50em; } }
+    #portofolio .list_portofolio ul {
+      list-style: none; }
+      #portofolio .list_portofolio ul li {
+        display: inline-block;
+        margin-right: 0.70em; }
+        @media (max-width: 768px) {
+          #portofolio .list_portofolio ul li {
+            margin-right: 0.10em;
+            margin-bottom: 1em; } }
+        #portofolio .list_portofolio ul li a {
+          font-size: 13px;
+          padding: 5px 8px;
+          color: #ffffff;
+          border-radius: 2px;
+          border: 1px solid #03C4EB;
+          background-color: #03C4EB;
+          text-decoration: none;
+          transition: .5s all ease-out;
+          -webkit-transition: .5s all ease-out;
+          -moz-transition: .5s all ease-out;
+          -ms-transition: .5s all ease-out;
+          -o-transition: .5s all ease-out; }
+          @media (max-width: 768px) {
+            #portofolio .list_portofolio ul li a {
+              padding: 5px 6px;
+              font-size: 11px; } }
+          #portofolio .list_portofolio ul li a:hover {
+            border: 1px solid #000000;
+            color: #000000;
+            background: transparent; }
   #portofolio .portofolio_item {
     background-size: cover;
     background-position: center center;
